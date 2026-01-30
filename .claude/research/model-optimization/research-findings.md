@@ -640,28 +640,15 @@ This section maps research recommendations to specific Moltbot codebase location
 
 **Step 1: Add Cerebras auth profile**
 
-Edit `~/.clawdbot/config.json`:
-```json
-{
-  "auth": {
-    "profiles": {
-      "cerebras-pro": {
-        "provider": "cerebras",
-        "mode": "api_key"
-      }
-    },
-    "order": {
-      "cerebras": ["cerebras-pro"]
-    }
-  }
-}
+```bash
+# Option A: Interactive (prompts for API key)
+moltbot models auth paste-token --provider cerebras
+
+# Option B: Environment variable
+export CEREBRAS_API_KEY="your-api-key-here"
 ```
 
-Then store the API key:
-```bash
-moltbot auth add cerebras-pro --provider cerebras --mode api_key
-# Enter your Cerebras API key when prompted
-```
+Credentials are stored in `~/.clawdbot/auth-profiles.json`.
 
 **Step 2: Configure Cerebras as a provider**
 
@@ -888,22 +875,22 @@ The cache trace diagnostic can be enabled:
 ### CLI Commands Reference
 
 ```bash
+# Add Cerebras auth (interactive)
+moltbot models auth paste-token --provider cerebras
+
+# Check auth profiles
+moltbot models status
+
 # Check current model config
 moltbot config get agents.defaults.model
 
 # Set primary model
-moltbot config set agents.defaults.model.primary "cerebras/llama-3.3-70b"
+moltbot models set cerebras/llama-3.3-70b
 
-# Add model to allowlist with alias
-moltbot config set 'agents.defaults.models["cerebras/llama-3.3-70b"].alias' "cerebras"
+# Add model alias
+moltbot models aliases set cerebras cerebras/llama-3.3-70b
 
-# Check auth profiles
-moltbot auth list
-
-# Add Cerebras auth
-moltbot auth add cerebras-pro --provider cerebras --mode api_key
-
-# Verify model is accessible
+# List available models
 moltbot models list
 
 # Test model directly
