@@ -44,8 +44,8 @@ Some code blocks lack language labels (```python, ```bash, etc.), reducing reada
 
 ## Acceptance Criteria
 
-- [ ] All code blocks have language labels
-- [ ] Consistent highlighting when rendered
+- [x] All code blocks have language labels
+- [x] Consistent highlighting when rendered
 
 ## Work Log
 

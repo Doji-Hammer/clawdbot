@@ -60,9 +60,9 @@ The research document contains incorrect Qwen 3 model context length specificati
 
 ## Acceptance Criteria
 
-- [ ] Context lengths match official Qwen3 specs OR Cerebras provider limits
-- [ ] Table clearly indicates if values are native vs provider-limited
-- [ ] Sources cited for each value
+- [x] Context lengths match official Qwen3 specs OR Cerebras provider limits
+- [x] Table clearly indicates if values are native vs provider-limited
+- [x] Sources cited for each value
 
 ## Work Log
 

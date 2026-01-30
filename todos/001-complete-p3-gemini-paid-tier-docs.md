@@ -59,9 +59,9 @@ The research document `.claude/research/model-optimization/research-findings.md`
 
 ## Acceptance Criteria
 
-- [ ] Rate limits match https://ai.google.dev/gemini-api/docs/rate-limits
-- [ ] Document includes "Last verified: YYYY-MM-DD" note
-- [ ] EU/UK/Switzerland restriction still confirmed current
+- [x] Rate limits match https://ai.google.dev/gemini-api/docs/rate-limits
+- [x] Document includes "Last verified: YYYY-MM-DD" note
+- [x] EU/UK/Switzerland restriction still confirmed current
 
 ## Work Log
 

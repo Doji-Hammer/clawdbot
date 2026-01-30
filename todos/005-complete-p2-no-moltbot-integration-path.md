@@ -71,9 +71,9 @@ The research document provides Python code examples but no TypeScript implementa
 
 ## Acceptance Criteria
 
-- [ ] TypeScript examples added OR code paths documented
-- [ ] Implementation checklist with specific file:line references
-- [ ] "Switch to Cerebras" has exact config change documented
+- [x] TypeScript examples added OR code paths documented
+- [x] Implementation checklist with specific file:line references
+- [x] "Switch to Cerebras" has exact config change documented
 
 ## Work Log
 

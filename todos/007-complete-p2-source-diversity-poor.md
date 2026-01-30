@@ -67,9 +67,9 @@ The research document relies heavily on Cerebras sources (11 of 20), creating po
 
 ## Acceptance Criteria
 
-- [ ] At least 3 independent benchmark sources added
-- [ ] Competitor comparison included (Together.ai, Replicate, Groq)
-- [ ] Source diversity improved to <50% single vendor
+- [x] At least 3 independent benchmark sources added
+- [x] Competitor comparison included (Together.ai, Replicate, Groq)
+- [x] Source diversity improved to <50% single vendor
 
 ## Work Log
 

@@ -68,9 +68,9 @@ The research document claims Cerebras Pro unlocks "128K context on ALL models" -
 
 ## Acceptance Criteria
 
-- [ ] Claim verified with official Cerebras documentation OR support
-- [ ] Source citation added for context limit claim
-- [ ] If unverifiable, document marked with uncertainty indicator
+- [x] Claim verified with official Cerebras documentation OR support
+- [x] Source citation added for context limit claim
+- [x] If unverifiable, document marked with uncertainty indicator
 
 ## Work Log
 

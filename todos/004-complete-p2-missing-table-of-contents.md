@@ -59,9 +59,9 @@ The 500-line research document has no table of contents, making navigation diffi
 
 ## Acceptance Criteria
 
-- [ ] TOC added after document header
-- [ ] All section links work (test in preview)
-- [ ] Follows Mintlify anchor format (no em-dashes, no apostrophes)
+- [x] TOC added after document header
+- [x] All section links work (test in preview)
+- [x] Follows Mintlify anchor format (no em-dashes, no apostrophes)
 
 ## Work Log
 

@@ -66,9 +66,9 @@ Sections 7 ("Actionable Optimization Techniques") and 8 ("Quick Wins for Moltbot
 
 ## Acceptance Criteria
 
-- [ ] Clear distinction between sections
-- [ ] No duplicate recommendations
-- [ ] Reader knows which section to read first
+- [x] Clear distinction between sections
+- [x] No duplicate recommendations
+- [x] Reader knows which section to read first
 
 ## Work Log
 

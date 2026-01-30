@@ -70,9 +70,9 @@ Moltbot is a multi-channel messaging bot, but the research document provides no 
 
 ## Acceptance Criteria
 
-- [ ] Channel → TTFT requirement table added
-- [ ] Model selection guidance per channel type
-- [ ] Streaming capability documented per channel
+- [x] Channel → TTFT requirement table added
+- [x] Model selection guidance per channel type
+- [x] Streaming capability documented per channel
 
 ## Work Log
 
